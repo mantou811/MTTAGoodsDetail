@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C4611DA90622E8B6D78804ED94CE6B /* MTMediator+MTTAConfirmOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D5E3BCFE700B4C2FC78201BA3D88C7 /* MTMediator+MTTAConfirmOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E876D003CEC688EA70C225956F38614 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		1C90DCAABE6D06EDA8135BC5BE384EB3 /* MTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F2206E910BB025D67D0A2B3BEC11AD /* MTMediator-dummy.m */; };
+		33AE2B76CB3CC52116671C5D44F327CF /* MTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C20F0599897AC43D70A741273C97B70 /* MTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45DB27EFF98F0003CCE048DD6BF8D704 /* MTMediator+MTTAConfirmOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8257CCB189AD92E608241B3289CAF5 /* MTMediator+MTTAConfirmOrder.m */; };
+		4F1576130857D6D111A92B4376D5C972 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		54D0F0AD85585E796D28D808385C9FCC /* MTTAConfirmOrderBusinessCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C89D4D70FB7B282A016524F4636BA46A /* MTTAConfirmOrderBusinessCategory-dummy.m */; };
+		6DAED42137DED26D7AB5FFC2A62B1CDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		850457BAB2F880F9FEFF38041B14102D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		87C56E23ED02EF7AEEFB5FCCAADF34F3 /* Pods-MTTAGoodsDetailUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E99B78C772899BF57EC8BA2BFFE776F /* Pods-MTTAGoodsDetailUITests-dummy.m */; };
+		AB54077B22DD8FFC1F1CD7C99812B6A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		CA9A0047E13ADF0E54D4126D3671A1CB /* Pods-MTTAGoodsDetail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 413CE59B8DF9E6A4E721C10B448CD220 /* Pods-MTTAGoodsDetail-dummy.m */; };
+		D0AB1A57F3D360CB316F4650F877194E /* MTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 41368F4F3702D8AA06FFC8D7F22B761F /* MTMediator.m */; };
+		D5B136E35E37FE26C778364B27B1193F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40526143173731170BAE37A6AFA4C2BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044D03DF7D437756593364F29E7F128C;
+			remoteInfo = MTTAConfirmOrderBusinessCategory;
+		};
+		6CE916E34B874C7BFE987E89CEE5173B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD592DF3A4BC0A49DE6830D989668789;
+			remoteInfo = MTMediator;
+		};
+		E63B136A4DBF02246EA440C35FAE75FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD592DF3A4BC0A49DE6830D989668789;
+			remoteInfo = MTMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047001C24403EDD3945E6908EB9BA7DA /* libMTTAConfirmOrderBusinessCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMTTAConfirmOrderBusinessCategory.a; path = libMTTAConfirmOrderBusinessCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		09768AF0DF23F1F7C055A1C82D8A729A /* libPods-MTTAGoodsDetailUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MTTAGoodsDetailUITests.a"; path = "libPods-MTTAGoodsDetailUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFCDE0F87CAE5D738E280C3579F6A93 /* MTTAConfirmOrderBusinessCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTTAConfirmOrderBusinessCategory-prefix.pch"; sourceTree = "<group>"; };
+		1C44529B7CDD8299EF045BD4A7CE367B /* Pods-MTTAGoodsDetail-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTTAGoodsDetail-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1EC3B6943E8A22A5BD3DDFA750D84D69 /* MTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTMediator.xcconfig; sourceTree = "<group>"; };
+		2F16DCE3E1C7C695EA32FBF043ACD9E5 /* Pods-MTTAGoodsDetailUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTTAGoodsDetailUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		41368F4F3702D8AA06FFC8D7F22B761F /* MTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMediator.m; path = MTMediator/MTMediator/MTMediator.m; sourceTree = "<group>"; };
+		413CE59B8DF9E6A4E721C10B448CD220 /* Pods-MTTAGoodsDetail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTTAGoodsDetail-dummy.m"; sourceTree = "<group>"; };
+		479DA5DAE36C2A391E294B3772FEAFB3 /* Pods-MTTAGoodsDetail-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTTAGoodsDetail-frameworks.sh"; sourceTree = "<group>"; };
+		4C20F0599897AC43D70A741273C97B70 /* MTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMediator.h; path = MTMediator/MTMediator/MTMediator.h; sourceTree = "<group>"; };
+		4C8257CCB189AD92E608241B3289CAF5 /* MTMediator+MTTAConfirmOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MTMediator+MTTAConfirmOrder.m"; path = "MTTAConfirmOrderBusinessCategory/MTTAConfirmOrderBusinessCategory/MTMediator+MTTAConfirmOrder.m"; sourceTree = "<group>"; };
+		4E99B78C772899BF57EC8BA2BFFE776F /* Pods-MTTAGoodsDetailUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTTAGoodsDetailUITests-dummy.m"; sourceTree = "<group>"; };
+		6001856449C453BB65F0B7345E1F44DF /* Pods-MTTAGoodsDetailUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTTAGoodsDetailUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		602E4DD0031C9E04251365EBBB47C0EF /* Pods-MTTAGoodsDetailUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTTAGoodsDetailUITests-resources.sh"; sourceTree = "<group>"; };
+		657B4F04CC2D57FFB604FB301F74CA54 /* MTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTMediator-prefix.pch"; sourceTree = "<group>"; };
+		698F612B3D3EC69B9E7AA6862C185D21 /* Pods-MTTAGoodsDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTTAGoodsDetail.release.xcconfig"; sourceTree = "<group>"; };
+		878AFBD2C1ED6AD3651BBB0D06D0775F /* libPods-MTTAGoodsDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MTTAGoodsDetail.a"; path = "libPods-MTTAGoodsDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E546FF7E5C092E433B3AF9CED00260 /* Pods-MTTAGoodsDetailUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTTAGoodsDetailUITests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A79FAAE2D5FB04C92DCFB6FAD13E5C92 /* Pods-MTTAGoodsDetail-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTTAGoodsDetail-resources.sh"; sourceTree = "<group>"; };
+		AF0CD854F949C0F3986F52AC69B749A0 /* Pods-MTTAGoodsDetailUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTTAGoodsDetailUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BBE5DF16F806C5754F00AB6340F6285E /* Pods-MTTAGoodsDetail-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTTAGoodsDetail-acknowledgements.plist"; sourceTree = "<group>"; };
+		C89D4D70FB7B282A016524F4636BA46A /* MTTAConfirmOrderBusinessCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTTAConfirmOrderBusinessCategory-dummy.m"; sourceTree = "<group>"; };
+		CAEF9F8586DA2EA70D4654A802646ACE /* MTTAConfirmOrderBusinessCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTTAConfirmOrderBusinessCategory.xcconfig; sourceTree = "<group>"; };
+		CD53454405663F107AF0404D8FA22BF0 /* Pods-MTTAGoodsDetailUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTTAGoodsDetailUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBA41E1B53A9F200DF54C680A00C54AF /* Pods-MTTAGoodsDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTTAGoodsDetail.debug.xcconfig"; sourceTree = "<group>"; };
+		E2F2206E910BB025D67D0A2B3BEC11AD /* MTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTMediator-dummy.m"; sourceTree = "<group>"; };
+		E47688970B72A6114953F9C00D05EA0B /* libMTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMTMediator.a; path = libMTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D5E3BCFE700B4C2FC78201BA3D88C7 /* MTMediator+MTTAConfirmOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTMediator+MTTAConfirmOrder.h"; path = "MTTAConfirmOrderBusinessCategory/MTTAConfirmOrderBusinessCategory/MTMediator+MTTAConfirmOrder.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AAB0E60915999D67889F28C0E155D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB54077B22DD8FFC1F1CD7C99812B6A9 /* Foundation.framework in Frameworks */,
+				4F1576130857D6D111A92B4376D5C972 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B64BF8DFF785D2792CD8CD423B58100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAED42137DED26D7AB5FFC2A62B1CDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DEAF4B54122397EC07B790E5BADFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B136E35E37FE26C778364B27B1193F /* Foundation.framework in Frameworks */,
+				0E876D003CEC688EA70C225956F38614 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A8CA3DBD2A4D9BBE9254880B8159C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850457BAB2F880F9FEFF38041B14102D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4D022558CF89E400F6A046997BB9E416 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF9F8586DA2EA70D4654A802646ACE /* MTTAConfirmOrderBusinessCategory.xcconfig */,
+				C89D4D70FB7B282A016524F4636BA46A /* MTTAConfirmOrderBusinessCategory-dummy.m */,
+				1AFCDE0F87CAE5D738E280C3579F6A93 /* MTTAConfirmOrderBusinessCategory-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MTTAConfirmOrderBusinessCategory";
+			sourceTree = "<group>";
+		};
+		5B44D6BA31C04FE9C472348BF586EEC6 /* Pods-MTTAGoodsDetailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6001856449C453BB65F0B7345E1F44DF /* Pods-MTTAGoodsDetailUITests-acknowledgements.markdown */,
+				2F16DCE3E1C7C695EA32FBF043ACD9E5 /* Pods-MTTAGoodsDetailUITests-acknowledgements.plist */,
+				4E99B78C772899BF57EC8BA2BFFE776F /* Pods-MTTAGoodsDetailUITests-dummy.m */,
+				92E546FF7E5C092E433B3AF9CED00260 /* Pods-MTTAGoodsDetailUITests-frameworks.sh */,
+				602E4DD0031C9E04251365EBBB47C0EF /* Pods-MTTAGoodsDetailUITests-resources.sh */,
+				AF0CD854F949C0F3986F52AC69B749A0 /* Pods-MTTAGoodsDetailUITests.debug.xcconfig */,
+				CD53454405663F107AF0404D8FA22BF0 /* Pods-MTTAGoodsDetailUITests.release.xcconfig */,
+			);
+			name = "Pods-MTTAGoodsDetailUITests";
+			path = "Target Support Files/Pods-MTTAGoodsDetailUITests";
+			sourceTree = "<group>";
+		};
+		5D0EE24475EBBC9CB056FA86B7073749 /* Pods-MTTAGoodsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1C44529B7CDD8299EF045BD4A7CE367B /* Pods-MTTAGoodsDetail-acknowledgements.markdown */,
+				BBE5DF16F806C5754F00AB6340F6285E /* Pods-MTTAGoodsDetail-acknowledgements.plist */,
+				413CE59B8DF9E6A4E721C10B448CD220 /* Pods-MTTAGoodsDetail-dummy.m */,
+				479DA5DAE36C2A391E294B3772FEAFB3 /* Pods-MTTAGoodsDetail-frameworks.sh */,
+				A79FAAE2D5FB04C92DCFB6FAD13E5C92 /* Pods-MTTAGoodsDetail-resources.sh */,
+				DBA41E1B53A9F200DF54C680A00C54AF /* Pods-MTTAGoodsDetail.debug.xcconfig */,
+				698F612B3D3EC69B9E7AA6862C185D21 /* Pods-MTTAGoodsDetail.release.xcconfig */,
+			);
+			name = "Pods-MTTAGoodsDetail";
+			path = "Target Support Files/Pods-MTTAGoodsDetail";
+			sourceTree = "<group>";
+		};
+		69A317E287C32FC359DA431BC0E8FDB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C29A606173F4ABA7CBD161ACF14DF6C1 /* MTMediator */,
+				D1E1445E5918B5D8AD81946FDD7C8DAF /* MTTAConfirmOrderBusinessCategory */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				69A317E287C32FC359DA431BC0E8FDB6 /* Pods */,
+				E0EB56CEBA71706A9F95C45FC11457B3 /* Products */,
+				8C22094A7AD02D415C8229A7D8371CB3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C22094A7AD02D415C8229A7D8371CB3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D0EE24475EBBC9CB056FA86B7073749 /* Pods-MTTAGoodsDetail */,
+				5B44D6BA31C04FE9C472348BF586EEC6 /* Pods-MTTAGoodsDetailUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C29A606173F4ABA7CBD161ACF14DF6C1 /* MTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				4C20F0599897AC43D70A741273C97B70 /* MTMediator.h */,
+				41368F4F3702D8AA06FFC8D7F22B761F /* MTMediator.m */,
+				CA45F3039E0A6951B0BB77D5B5A6092E /* Support Files */,
+			);
+			name = MTMediator;
+			path = MTMediator;
+			sourceTree = "<group>";
+		};
+		CA45F3039E0A6951B0BB77D5B5A6092E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EC3B6943E8A22A5BD3DDFA750D84D69 /* MTMediator.xcconfig */,
+				E2F2206E910BB025D67D0A2B3BEC11AD /* MTMediator-dummy.m */,
+				657B4F04CC2D57FFB604FB301F74CA54 /* MTMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MTMediator";
+			sourceTree = "<group>";
+		};
+		D1E1445E5918B5D8AD81946FDD7C8DAF /* MTTAConfirmOrderBusinessCategory */ = {
+			isa = PBXGroup;
+			children = (
+				F9D5E3BCFE700B4C2FC78201BA3D88C7 /* MTMediator+MTTAConfirmOrder.h */,
+				4C8257CCB189AD92E608241B3289CAF5 /* MTMediator+MTTAConfirmOrder.m */,
+				4D022558CF89E400F6A046997BB9E416 /* Support Files */,
+			);
+			name = MTTAConfirmOrderBusinessCategory;
+			path = MTTAConfirmOrderBusinessCategory;
+			sourceTree = "<group>";
+		};
+		E0EB56CEBA71706A9F95C45FC11457B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E47688970B72A6114953F9C00D05EA0B /* libMTMediator.a */,
+				047001C24403EDD3945E6908EB9BA7DA /* libMTTAConfirmOrderBusinessCategory.a */,
+				878AFBD2C1ED6AD3651BBB0D06D0775F /* libPods-MTTAGoodsDetail.a */,
+				09768AF0DF23F1F7C055A1C82D8A729A /* libPods-MTTAGoodsDetailUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		007BE77E798916E2237A5F6160F4AE25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AE2B76CB3CC52116671C5D44F327CF /* MTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4EB93812DAA0636CC1B0E1416E733E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C4611DA90622E8B6D78804ED94CE6B /* MTMediator+MTTAConfirmOrder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		044D03DF7D437756593364F29E7F128C /* MTTAConfirmOrderBusinessCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5375D15B9BD9B736A662C0340B34581D /* Build configuration list for PBXNativeTarget "MTTAConfirmOrderBusinessCategory" */;
+			buildPhases = (
+				A89CC05A585F1B46938C6DFCD992B637 /* Sources */,
+				E0DEAF4B54122397EC07B790E5BADFD2 /* Frameworks */,
+				BC4EB93812DAA0636CC1B0E1416E733E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28AE791A760F0C83BF102D2E1788435B /* PBXTargetDependency */,
+			);
+			name = MTTAConfirmOrderBusinessCategory;
+			productName = MTTAConfirmOrderBusinessCategory;
+			productReference = 047001C24403EDD3945E6908EB9BA7DA /* libMTTAConfirmOrderBusinessCategory.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D9537B2C18338A64E455715C8F8D25B3 /* Pods-MTTAGoodsDetail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D1AA7827A8447E40B40C4C5B163AB5 /* Build configuration list for PBXNativeTarget "Pods-MTTAGoodsDetail" */;
+			buildPhases = (
+				5C12F2E95E96175275929982CC6D42E3 /* Sources */,
+				9B64BF8DFF785D2792CD8CD423B58100 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51BF4E30582337C5DE28DE4CC0275044 /* PBXTargetDependency */,
+				6777A211D49405CAAA9B8C81BA699661 /* PBXTargetDependency */,
+			);
+			name = "Pods-MTTAGoodsDetail";
+			productName = "Pods-MTTAGoodsDetail";
+			productReference = 878AFBD2C1ED6AD3651BBB0D06D0775F /* libPods-MTTAGoodsDetail.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DD592DF3A4BC0A49DE6830D989668789 /* MTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B5BF37A87202DDDB7151CD344777A9 /* Build configuration list for PBXNativeTarget "MTMediator" */;
+			buildPhases = (
+				F18665A328B144926AEEA5E291830E28 /* Sources */,
+				3AAB0E60915999D67889F28C0E155D9E /* Frameworks */,
+				007BE77E798916E2237A5F6160F4AE25 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTMediator;
+			productName = MTMediator;
+			productReference = E47688970B72A6114953F9C00D05EA0B /* libMTMediator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F3536155C5AECCDE0B0DD5CF5DDB70AD /* Pods-MTTAGoodsDetailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC18F23DA08635AC2FED0E1B7606F180 /* Build configuration list for PBXNativeTarget "Pods-MTTAGoodsDetailUITests" */;
+			buildPhases = (
+				AF32194BE9E5EF9F9828482A3E756992 /* Sources */,
+				F7A8CA3DBD2A4D9BBE9254880B8159C7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MTTAGoodsDetailUITests";
+			productName = "Pods-MTTAGoodsDetailUITests";
+			productReference = 09768AF0DF23F1F7C055A1C82D8A729A /* libPods-MTTAGoodsDetailUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E0EB56CEBA71706A9F95C45FC11457B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD592DF3A4BC0A49DE6830D989668789 /* MTMediator */,
+				044D03DF7D437756593364F29E7F128C /* MTTAConfirmOrderBusinessCategory */,
+				D9537B2C18338A64E455715C8F8D25B3 /* Pods-MTTAGoodsDetail */,
+				F3536155C5AECCDE0B0DD5CF5DDB70AD /* Pods-MTTAGoodsDetailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C12F2E95E96175275929982CC6D42E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9A0047E13ADF0E54D4126D3671A1CB /* Pods-MTTAGoodsDetail-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89CC05A585F1B46938C6DFCD992B637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DB27EFF98F0003CCE048DD6BF8D704 /* MTMediator+MTTAConfirmOrder.m in Sources */,
+				54D0F0AD85585E796D28D808385C9FCC /* MTTAConfirmOrderBusinessCategory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF32194BE9E5EF9F9828482A3E756992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C56E23ED02EF7AEEFB5FCCAADF34F3 /* Pods-MTTAGoodsDetailUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18665A328B144926AEEA5E291830E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C90DCAABE6D06EDA8135BC5BE384EB3 /* MTMediator-dummy.m in Sources */,
+				D0AB1A57F3D360CB316F4650F877194E /* MTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28AE791A760F0C83BF102D2E1788435B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTMediator;
+			target = DD592DF3A4BC0A49DE6830D989668789 /* MTMediator */;
+			targetProxy = E63B136A4DBF02246EA440C35FAE75FD /* PBXContainerItemProxy */;
+		};
+		51BF4E30582337C5DE28DE4CC0275044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTMediator;
+			target = DD592DF3A4BC0A49DE6830D989668789 /* MTMediator */;
+			targetProxy = 6CE916E34B874C7BFE987E89CEE5173B /* PBXContainerItemProxy */;
+		};
+		6777A211D49405CAAA9B8C81BA699661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTTAConfirmOrderBusinessCategory;
+			target = 044D03DF7D437756593364F29E7F128C /* MTTAConfirmOrderBusinessCategory */;
+			targetProxy = 40526143173731170BAE37A6AFA4C2BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E0E28BFC7A1674F86B180A5951AAAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC3B6943E8A22A5BD3DDFA750D84D69 /* MTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MTMediator/MTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2700F2F42697E537FE8AA05BB17EDB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC3B6943E8A22A5BD3DDFA750D84D69 /* MTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MTMediator/MTMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F208D77C46093848DD1AA78B4B3D23D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA41E1B53A9F200DF54C680A00C54AF /* Pods-MTTAGoodsDetail.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		603C55139BF10C51E5D6BF26FC540306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0CD854F949C0F3986F52AC69B749A0 /* Pods-MTTAGoodsDetailUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		648340F71EAB118C02EB27856103B3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEF9F8586DA2EA70D4654A802646ACE /* MTTAConfirmOrderBusinessCategory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MTTAConfirmOrderBusinessCategory/MTTAConfirmOrderBusinessCategory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D259C4746EEC3BDD314F0A056EACA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEF9F8586DA2EA70D4654A802646ACE /* MTTAConfirmOrderBusinessCategory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MTTAConfirmOrderBusinessCategory/MTTAConfirmOrderBusinessCategory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B07285742C105BC15E4F03E84F55808E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698F612B3D3EC69B9E7AA6862C185D21 /* Pods-MTTAGoodsDetail.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CA4AFA28BE447D45E7E0AABB66F918CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD53454405663F107AF0404D8FA22BF0 /* Pods-MTTAGoodsDetailUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D1AA7827A8447E40B40C4C5B163AB5 /* Build configuration list for PBXNativeTarget "Pods-MTTAGoodsDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F208D77C46093848DD1AA78B4B3D23D /* Debug */,
+				B07285742C105BC15E4F03E84F55808E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5375D15B9BD9B736A662C0340B34581D /* Build configuration list for PBXNativeTarget "MTTAConfirmOrderBusinessCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D259C4746EEC3BDD314F0A056EACA20 /* Debug */,
+				648340F71EAB118C02EB27856103B3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B5BF37A87202DDDB7151CD344777A9 /* Build configuration list for PBXNativeTarget "MTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2700F2F42697E537FE8AA05BB17EDB88 /* Debug */,
+				0E0E28BFC7A1674F86B180A5951AAAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC18F23DA08635AC2FED0E1B7606F180 /* Build configuration list for PBXNativeTarget "Pods-MTTAGoodsDetailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603C55139BF10C51E5D6BF26FC540306 /* Debug */,
+				CA4AFA28BE447D45E7E0AABB66F918CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
